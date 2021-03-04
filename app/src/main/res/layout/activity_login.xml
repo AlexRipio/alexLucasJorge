@@ -70,13 +70,4 @@
         android:textColor="@color/white"
         app:backgroundTint="#262923" />
 
-    <TextView
-        android:id="@+id/NombreApp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="50dp"
-        android:text="TGC"
-        android:textSize="28dp" />
-
 </RelativeLayout>
