@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "296059375275",
+    "project_id": "alexlucasjorge",
+    "storage_bucket": "alexlucasjorge.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:296059375275:android:699d5106f7ff466f88f1ee",
+        "android_client_info": {
+          "package_name": "com.siglas.appname"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "296059375275-43vhqm1u4cbcvjipee76kflifvurp1f5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOCwuYULJ9UjM3J1vc2ytBPkjXkMaKsCw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "296059375275-43vhqm1u4cbcvjipee76kflifvurp1f5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

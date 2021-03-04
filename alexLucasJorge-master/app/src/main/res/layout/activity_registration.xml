@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#007B17"
+    tools:context=".Registration"
+    android:padding="20dp">
+
+
+    <ImageView
+        android:id="@+id/imglogo"
+        android:layout_width="202dp"
+        android:layout_height="291dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-31dp"
+        app:srcCompat="@drawable/logo22" />
+
+    <EditText
+        android:id="@+id/ETEmailRegistration"
+        android:layout_width="339dp"
+        android:layout_height="55dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="258dp"
+        android:ems="10"
+        android:hint="Email"
+
+        android:inputType="textPersonName"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/ETPasswordRegistration"
+        android:layout_width="339dp"
+        android:layout_height="55dp"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="Password"
+        android:layout_below="@id/ETEmailRegistration"
+        android:inputType="textPersonName"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF" />
+
+
+    <EditText
+        android:id="@+id/ETNameRegistration"
+        android:layout_width="339dp"
+        android:layout_height="55dp"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="Nombre de usuario"
+        android:layout_below="@id/ETPasswordRegistration"
+        android:inputType="textPersonName"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/txtRegistration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="230dp"
+        android:textSize="15dp"
+        android:text="Introduce los siguientes datos para registrarte:"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnregister"
+        android:layout_width="281dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ETNameRegistration"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/boton_rounded"
+        android:text="Registrar"
+        app:backgroundTint="#504D4D" />
+
+
+</RelativeLayout>
