@@ -5,78 +5,81 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#4C593B"
-    android:padding="20dp">
+    android:padding="20dp"
+    tools:context=".Registration">
 
 
     <ImageView
         android:id="@+id/imglogo"
         android:layout_width="202dp"
         android:layout_height="291dp"
-        android:layout_below="@id/NombreApp"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="25dp"
-
+        android:layout_marginTop="-31dp"
         app:srcCompat="@drawable/logo22" />
 
     <EditText
-        android:id="@+id/ETEmail"
+        android:id="@+id/ETEmailRegistration"
         android:layout_width="339dp"
         android:layout_height="55dp"
-        android:layout_below="@id/imglogo"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="1dp"
+        android:layout_marginTop="258dp"
         android:ems="10"
         android:hint="Email"
-        android:inputType="textPersonName"
 
+        android:inputType="textPersonName"
         android:textColor="#FFFFFF"
         android:textColorHint="#FFFFFF" />
 
     <EditText
-        android:id="@+id/ETPassword"
+        android:id="@+id/ETPasswordRegistration"
         android:layout_width="339dp"
-        android:layout_height="52dp"
-        android:layout_below="@id/ETEmail"
+        android:layout_height="55dp"
+        android:layout_below="@id/ETEmailRegistration"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="0dp"
         android:ems="10"
         android:hint="Password"
         android:inputType="textPersonName"
         android:textColor="#FFFFFF"
-        android:textColorHint="@color/white" />
+        android:textColorHint="#FFFFFF" />
 
-    <Button
-        android:id="@+id/btnlogin"
-        android:layout_width="281dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/ETPassword"
+
+    <EditText
+        android:id="@+id/ETNameRegistration"
+        android:layout_width="339dp"
+        android:layout_height="55dp"
+        android:layout_below="@id/ETPasswordRegistration"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="25dp"
-        android:background="@drawable/boton_rounded"
-        android:text="Log In"
+        android:ems="10"
+        android:hint="Nombre de usuario"
+        android:inputType="textPersonName"
         android:textColor="#FFFFFF"
-        android:textColorHighlight="#FFFFFF"
-        app:backgroundTint="#000000" />
+        android:textColorHint="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/txtRegistration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="230dp"
+        android:text="Introduce los siguientes datos para registrarte:"
+        android:textColor="#FFFFFF"
+        android:textSize="15dp" />
 
     <Button
         android:id="@+id/btnregister"
         android:layout_width="281dp"
         android:layout_height="wrap_content"
-        android:layout_below="@id/btnlogin"
+        android:layout_below="@id/ETNameRegistration"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="25dp"
         android:background="@drawable/boton_rounded"
         android:text="Registrar"
         android:textColor="@color/white"
-        app:backgroundTint="#262923" />
+        app:backgroundTint="#504D4D" />
 
-    <TextView
-        android:id="@+id/NombreApp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="50dp"
-        android:text="TGC"
-        android:textSize="28dp" />
 
 </RelativeLayout>
