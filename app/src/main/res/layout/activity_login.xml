@@ -12,11 +12,11 @@
         android:id="@+id/imglogo"
         android:layout_width="202dp"
         android:layout_height="291dp"
-        android:layout_below="@id/NombreApp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="25dp"
 
-        app:srcCompat="@drawable/logo22" />
+        app:srcCompat="@drawable/logo22"
+        tools:ignore="UnknownId" />
 
     <EditText
         android:id="@+id/ETEmail"
